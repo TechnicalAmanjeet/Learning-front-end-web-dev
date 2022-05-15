@@ -1,0 +1,16 @@
+{
+  "name": "html-learning",
+  "version": "1.0.0",
+  "description": "From here i am started learning html again but in serious manner.",
+  "main": "index.html",
+  "scripts": {
+    "live" : "live-server",
+    "start" : "npm run live",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Technical Amanjeet",
+  "license": "ISC",
+  "devDependencies": {
+    "live-server": "^1.2.2"
+  }
+}

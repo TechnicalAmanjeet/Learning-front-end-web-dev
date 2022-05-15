@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html Learning</title>
+
+    <style>
+        table, tbody, thead, th,td{
+            border: 1px solid red;
+        }
+    </style>
+</head>
+<body>
+    <h1>Started learning html again from basic.</h1>
+    <h2>Live server started.</h2>
+    <h3>What's you are doing.</h3>
+    <h4>4th type of heading.</h4>
+    <h5>5th type of heading.</h5>
+    <h6>6th and last type of heading which we have in html.</h6>
+
+    <p>p tag used to  write a pargraph in html.</p>
+
+    <a href="google.com">go to google.</a>
+    <div>
+        div is a block tag.
+    </div>
+
+    <span>span is an inline tag.</span>
+
+    <button>Button tags creates a button.</button>
+
+    <img src="#" alt="image should be appeared here.">
+
+    <video src="#" controls></video>
+
+   
+
+    <div>
+        audio tag will start from here.
+    </div>
+    <audio src="#" controls></audio>
+    
+    <p>table starts from here.</p>
+
+    <!-- <iframe src="#" width="100%" height="100px"  frameborder="0"></iframe> -->
+
+    <!-- Table code starts from here -->
+
+    <!-- note : learn how to use row span and colspan to create different type of table layout to show data. -->
+
+    <table>
+        <thead>
+            <tr>
+                <th>col-1</th>
+                <th>col-2</th>
+                <th>col-3</th>
+                <th>col-4</th>
+            </tr>
+        </thead>
+
+        <tbody>
+            <tr>
+                <td>body-1</td>
+                <td rowspan="3">body-2</td>
+                <td>body-3</td>
+                <td>body-4</td>
+            </tr>
+            
+            <tr>
+                <td>body-1</td>
+                <td>body-2</td>
+                <td>body-3</td>
+                <!-- <td>body-4</td> -->
+            </tr>
+            
+            <tr>
+                <td>body-1</td>
+                <td>body-2</td>
+                <td>body-3</td>
+                <!-- <td>body-4</td> -->
+            </tr>
+            
+            <tr>
+                <td colspan="3">body-1</td>
+                <td>body-2</td>
+                <!-- <td>body-3</td> -->
+                <!-- <td>body-4</td> -->
+            </tr>
+            
+            <tr>
+                <td>body-1</td>
+                <td>body-2</td>
+                <td>body-3</td>
+                <td>body-4</td>
+            </tr>
+            
+            <tr>
+                <td>body-1</td>
+                <td>body-2</td>
+                <td>body-3</td>
+                <td>body-4</td>
+            </tr>
+            
+        </tbody>
+
+    </table>
+
+    <!-- form section will starts from here -->
+<h2>Form section starts from here.</h2>
+
+<form method="get" action="/submit"> 
+<!-- the attribute of above form says that whenever we submit this form then form initiate a get request and send all data to /submit webpage. -->
+
+    <table>
+        <tr>
+            <td><label for="fullname">Full Name   </label></td>
+            <td><input type="text" name="fullname" id="fullname" required></td>
+        </tr>
+
+        <tr>
+            <td><label for="email">Email  </label></td>
+            <td><input required type="email" name="Email" id="email"></td>
+        </tr>
+
+        <tr>
+            <td><label for="password">Passward  </label></td>
+            <td><input required type="password" name="password" id="password"></td>
+        </tr>
+
+        <tr>
+            <td><label for="phoneNumber">Phone Number</label></td>
+            <td><input type="number" required name="phoneNumber" id="phoneNumber"></td>
+        </tr>
+
+        <tr>
+            <td><label for="Gender">Gender</label></td>
+            <td><input type="checkbox" name="Gender" required id="Gender">Male
+                <input type="checkbox" name="Gender" id="Gender">Female
+                <input type="checkbox" name="Gender" id="Gender">None
+            </td>
+            <!-- <td></td> -->
+        </tr>
+
+        <tr>
+            <td><label for="Hobbies">Hobbies</label></td>
+            <td>
+                <select name="Hobbies" id="Hobbies" required>
+                    <option value="Select" hidden>Select</option>
+                    <option value="Cricket">Cricket</option>
+                    <option value="Music">Music</option>
+                    <option value="Studying">Studying</option>
+                    <option value="Dancing">Dancing</option>
+                </select>
+            </td>
+        </tr>
+
+    </table>
+    <input type="submit" value="Submit" id="sumbmit">
+
+
+</form>
+
+<h2>Starting again</h2>
+
+
+
+
+</body>
+</html>
+
+
+
+
+
+

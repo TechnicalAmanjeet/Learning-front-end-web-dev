@@ -1,5 +1,7 @@
 const hex_value = [0,1,2,3,4,5,6,7,8,9,'A','B','C','D','E','F'];
 
+alert("Change the background color of page by clicking on the 'change background color' button.")
+
 function pick_color_name(){
     let hex_color = "#";
     for(let i=0; i<6; ++i){

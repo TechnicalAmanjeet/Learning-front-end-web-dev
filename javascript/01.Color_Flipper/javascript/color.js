@@ -5,7 +5,7 @@ import { colorList } from './color_list.js';
 // just for testing pourpose
 // console.log(colorList.length)
 
-// alert("Change the background color of page by clicking on the 'change background color' button.")
+alert("Change the background color of page by clicking on the 'change background color' button.")
 
 function pick_color_name(){
     let random_number = parseInt( Math.random() * colorList.length );

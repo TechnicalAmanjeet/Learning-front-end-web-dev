@@ -48,6 +48,12 @@ main nav ul{
     justify-content: space-around;
 }
 
+main nav ul li a.active{
+    /* font-size: 1em; */
+    font-weight: 800;
+    color: rgb(57,57,175);
+}
+
 main nav ul li a:hover{
     color: rgb(57,57,175);
     /* animation-duration: .5s; */

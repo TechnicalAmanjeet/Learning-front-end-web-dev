@@ -14,6 +14,19 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Flex:opsz,wght@8..144,100;8..144,200;8..144,300;8..144,400;8..144,500;8..144,600;8..144,700;8..144,800&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
 
+<style>
+    main .main .output{
+        /* background-color: red; */
+        /* display: flex; */
+        flex-direction: column;
+        /* align-items: center; */
+        /* justify-content: center; */
+        /* background: transparent; */
+        height: 90px;
+        /* color: red; */
+    }
+</style>
+
 </head>
 <body>
 
@@ -29,6 +42,7 @@
                     <li><a href="./../index.html">Color</a></li>
                     <li><a href="./hex.html" >Hax</a></li>
                     <li><a href="./rgb.html">Rgb</a></li>
+                    <li><a href="./hsl.html">Hsl</a></li>
                     <li><a href="#" class="active">Advance</a></li>
                 </ul>
             </nav>
@@ -36,7 +50,7 @@
 
             <section class="main">
 
-                <h2 class="output">Background Color : <span id="output-value">Blue</span></h2>
+                <h2 class="output">Background Color <span id="output-value">Blue</span></h2>
 
                 <button id="change_background_color">Change Background Color</button>
 
@@ -59,7 +73,7 @@
 
 
     <!-- link custom js from here -->
-    <script src="./../javascript/index.js" type="module"></script>
+    <script src="./../javascript/advance.js" type="module"></script>
     
 
 </body>
